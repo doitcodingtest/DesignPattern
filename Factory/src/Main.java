@@ -1,12 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        Vehicle vehicle = new Motorcycle();
+        MotorcycleFactory motorcycleFactory = new MotorcycleFactory();
+        Vehicle vehicle = motorcycleFactory.createProduct();
         vehicle.deliver();
 
-        Vehicle vehicle2 = new Bicycle();
+        BicycleFactory bicycleFactory = new BicycleFactory();
+        Vehicle vehicle2 = bicycleFactory.createProduct();
         vehicle2.deliver();
 
-        Vehicle vehicle3 = new Car();
+        CarFactory carFactory = new CarFactory();
+        Vehicle vehicle3 = carFactory.createProduct();
         vehicle3.deliver();
     }
 }
