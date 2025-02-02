@@ -12,7 +12,7 @@ public class Main {
 
         user1.send("중재자 패턴은 어떠신가요?");
         System.out.println("---------------------------------------");
-        user3.send("준비 갈 완료!");
+        user3.send("편리한 점이 많은 것 같아요!");
         System.out.println("---------------------------------------");
         chatRoom1.leaveUser(user1);
         user4.send("하루코딩 어디갔지?");
