@@ -1,5 +1,5 @@
 public class UserView {
-    //(화면)출력 기능만 가지고 있습니다.
+    // 화면 출력 기능만 보유
     public void displayUserInfo(int id, String name, String grade){
         System.out.println("[회원 정보]");
         System.out.println("ID: "+id);
