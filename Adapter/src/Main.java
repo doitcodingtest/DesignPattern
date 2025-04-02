@@ -5,8 +5,3 @@ public class Main {
 
     }
 }
-
-class SMSInfo{
-    int TelNum;
-    String MessageData;
-}
