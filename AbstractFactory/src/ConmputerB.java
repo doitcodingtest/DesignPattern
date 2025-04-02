@@ -6,8 +6,8 @@ public class ConmputerB implements Computer {
     public ConmputerB() {
         System.out.println("B회사 컴퓨터를 생산합니다.");
         this.createKeyBoard();
-        this.createKeyBoard();
-        this.createKeyBoard();
+        this.createMouse();
+        this.createMonitor();
         System.out.println("B회사 컴퓨터를 완성하였습니다.");
     }
     @Override

@@ -7,8 +7,8 @@ public class ConmputerA implements Computer {
     public ConmputerA() {
         System.out.println("A회사 컴퓨터를 생산합니다.");
         this.createKeyBoard();
-        this.createKeyBoard();
-        this.createKeyBoard();
+        this.createMouse();
+        this.createMonitor();
         System.out.println("A회사 컴퓨터를 완성하였습니다.");
     }
 
