@@ -1,4 +1,4 @@
-public class UserModel { //회원 정보 관련 데이터만 가지고 있습니다.
+public class UserModel { //회원 정보 관련 데이터만 보유
     private int id;
     private String name;
     private String grade;
