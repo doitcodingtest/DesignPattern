@@ -5,7 +5,7 @@ public class On implements CapsLockState {
     }
 
     @Override
-    public void inputAndChangeStatue(char in, KeyBoard keyBoard) {
+    public void inputAndChangeState(char in, KeyBoard keyBoard) {
         System.out.println((char) (in - 32));
         keyBoard.setCapsLockState(new Off()); // 상태 변경
     }

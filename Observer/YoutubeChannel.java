@@ -17,7 +17,7 @@ public class YoutubeChannel {
 
     public void removeSubScriber(Subscriber o) {
         subScriberList.remove(o);
-        System.out.println("하루코딩+" +
+        System.out.println("하루코딩" +
                 "에 구독자 취소가 발생하였습니다. " +
                 "현재 구독자는 "+ subScriberList.size() + "명 입니다");
     }

@@ -5,7 +5,7 @@ public class Main {
         keyBoard.input('a');                  // Caps Lock : Off
         keyBoard.input('b');                  // Caps Lock : Off
         keyBoard.setCapsLockState(on);        // Caps Lock : Off -> On
-        keyBoard.inputAndChangeStatue('a');   // Caps Lock : On  -> Off
+        keyBoard.inputAndChangeState('a');   // Caps Lock : On  -> Off
         keyBoard.input('b');                  // Caps Lock : Off
         keyBoard.setCapsLockState(on);        // Caps Lock : Off -> On
         keyBoard.input('b');                  // Caps Lock : On

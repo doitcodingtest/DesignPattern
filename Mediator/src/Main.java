@@ -3,7 +3,7 @@ public class Main {
         ChatSystem chatRoom1 = new ChatRoom();
         User user1 = new ChatUser(chatRoom1, "하루코딩");
         User user2 = new ChatUser(chatRoom1, "구독자 A");
-        User user3 = new ChatUser(chatRoom1, "팜하니");
+        User user3 = new ChatUser(chatRoom1, "김하루");
         User user4 = new ChatUser(chatRoom1, "구독자 B");
         chatRoom1.joinUser(user1);
         chatRoom1.joinUser(user2);

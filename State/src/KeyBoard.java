@@ -13,7 +13,7 @@ public class KeyBoard {
         capsLockState.input(in);
     }
 
-    public void inputAndChangeStatue(char in) {
-        capsLockState.inputAndChangeStatue(in, this);
+    public void inputAndChangeState(char in) {
+        capsLockState.inputAndChangeState(in, this);
     }
 }
