@@ -1,15 +1,16 @@
 public class ConmputerB implements Computer {
-    public Monitor monitor;
-    public Keyboard keyboard;
     public Mouse mouse;
+    public Keyboard keyboard;
+    public Monitor monitor;
 
     public ConmputerB() {
         System.out.println("B회사 컴퓨터를 생산합니다.");
-        this.createKeyBoard();
         this.createMouse();
+        this.createKeyBoard();
         this.createMonitor();
-        System.out.println("B회사 컴퓨터를 완성하였습니다.");
+        System.out.println("B회사 컴퓨터를 완성했습니다.");
     }
+    
     @Override
     public Mouse createMouse() {
         return new MouseB();

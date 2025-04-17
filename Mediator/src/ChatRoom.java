@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 public class ChatRoom implements ChatSystem {
-    private final List<User> roomMember;
+    private final List<User> roomMember; // 사용자들이 멤버 변수로 관리
     public ChatRoom() {
         roomMember = new ArrayList<>();
     }

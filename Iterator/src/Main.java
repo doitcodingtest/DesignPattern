@@ -7,13 +7,13 @@ public class Main {
         memberInfo.addPremiumMember("김한국", LocalDate.of(2024, 8, 12));
         memberInfo.addPremiumMember("하루코딩", LocalDate.of(2024, 5, 5));
 
-        System.out.println("\n가입일 순 Iterator 사용");
+        System.out.println("\n가입일순 Iterator 사용");
         Iterator iterator = memberInfo.dateIterator();
         while (iterator.hasNext()) {
             User user = (User) iterator.next();
             System.out.println("가입일: " + user.joinDate + "\t" + "이름: " + user.name);
         }
-        System.out.println("\n이름 순 Iterator 사용");
+        System.out.println("\n이름순 Iterator 사용");
         iterator = memberInfo.nameIterator();
         while (iterator.hasNext()) {
             User user = (User) iterator.next();

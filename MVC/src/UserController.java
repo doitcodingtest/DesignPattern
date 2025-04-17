@@ -15,7 +15,7 @@ public class UserController {
         model.setGrade(grade);
     }
 
-    public void updateView() { //모델이 수정되면 연관 뷰도 수정되도록 컨트롤러에서 제어
+    public void updateView() { //모델을 수정하면 연관 뷰도 수정되도록 컨트롤러에서 제어
         view.displayUserInfo(model.getId(), model.getName(), model.getGrade());
     }
 }
