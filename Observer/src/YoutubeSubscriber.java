@@ -1,3 +1,5 @@
+package src;
+
 public class YoutubeSubscriber implements Subscriber{
     private String name;
 
