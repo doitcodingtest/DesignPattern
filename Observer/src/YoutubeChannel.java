@@ -23,8 +23,8 @@ public class YoutubeChannel {
     }
 
     public void notifySubscriber(){
-        for(int i=0; i< subscriberList.size(); i++){
-            Subscriber subscriber = (Subscriber)subscriberList.get(i);
+        for(int i = 0; i< subscriberList.size(); i++){
+            Subscriber subscriber = (Subscriber) subscriberList.get(i);
             subscriber.notify(channelName, uploadTitle);
         }
     }
