@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Computer computerA = new ConmputerA();
-        Computer computerB = new ConmputerB();
+        Computer computerA = new ComputerA();
+        Computer computerB = new ComputerB();
 
     }
 }

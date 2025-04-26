@@ -1,9 +1,9 @@
-public class ConmputerA implements Computer {
+public class ComputerA implements Computer {
     public Mouse mouse;
     public Keyboard keyboard;
     public Monitor monitor;
 
-    public ConmputerA() {
+    public ComputerA() {
         System.out.println("A회사 컴퓨터를 생산합니다.");
         this.createMouse();
         this.createKeyBoard();
