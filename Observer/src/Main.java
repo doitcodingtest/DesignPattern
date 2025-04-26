@@ -5,9 +5,9 @@ public class Main {
         
         // 채널 구독
         YoutubeSubscriber subscriber1 = new YoutubeSubscriber("JIHYE");
-        youtubeChannel.registerSubScriber(subscriber1);
+        youtubeChannel.registerSubscriber(subscriber1);
         YoutubeSubscriber subscriber2 = new YoutubeSubscriber("JUA");
-        youtubeChannel.registerSubScriber(subscriber2);
+        youtubeChannel.registerSubscriber(subscriber2);
 
         // 신규 콘텐츠 업로드 1
         youtubeChannel.uploadNewContents("클린코드 강의");
