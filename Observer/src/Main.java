@@ -4,16 +4,16 @@ public class Main {
         YoutubeChannel youtubeChannel = new YoutubeChannel("하루코딩");
         
         // 채널 구독
-        YoutubeSubscriber Subscriber1 = new YoutubeSubscriber("JIHYE");
-        youtubeChannel.registerSubScriber(Subscriber1);
-        YoutubeSubscriber Subscriber2 = new YoutubeSubscriber("JUA");
-        youtubeChannel.registerSubScriber(Subscriber2);
+        YoutubeSubscriber subscriber1 = new YoutubeSubscriber("JIHYE");
+        youtubeChannel.registerSubScriber(subscriber1);
+        YoutubeSubscriber subscriber2 = new YoutubeSubscriber("JUA");
+        youtubeChannel.registerSubScriber(subscriber2);
 
         // 신규 콘텐츠 업로드 1
         youtubeChannel.uploadNewContents("클린코드 강의");
 
         //구독 취소
-        youtubeChannel.removeSubScriber(Subscriber1);
+        youtubeChannel.removeSubscriber(subscriber1);
 
         // 신규 콘텐츠 업로드 2
         youtubeChannel.uploadNewContents("리팩토링 강의");
