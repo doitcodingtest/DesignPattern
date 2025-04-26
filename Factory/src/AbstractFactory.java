@@ -1,3 +1,3 @@
-public abstract class AbstracFactory {
+public abstract class AbstractFactory {
     abstract protected  Vehicle createProduct();
 }

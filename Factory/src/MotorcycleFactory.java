@@ -1,4 +1,4 @@
-public class MotorcycleFactory extends AbstracFactory{
+public class MotorcycleFactory extends AbstractFactory {
     @Override
     protected Vehicle createProduct() {
         return new Motorcycle();
