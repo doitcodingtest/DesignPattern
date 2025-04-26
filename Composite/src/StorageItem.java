@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class StroageItem implements Item {
+public class StorageItem implements Item {
     String name;
     private final List<Item> items;
 
-    public StroageItem(String name) {
+    public StorageItem(String name) {
         this.name = name;
         this.items = new ArrayList<>();
     }
